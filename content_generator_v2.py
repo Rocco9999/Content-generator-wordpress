@@ -506,9 +506,9 @@ def analize_keyword(main_keywords):
 
 
 # URL del file XML
-ASSISTANT_ID = "asst_9Ly6xop1vrdkUE5j7IcHjX7V"
-DALLE3_PROMPT_ASSISTANTID = "asst_arvOVGuEbljpoDtytdOxZwSz"
-xml_url = "https://www.google.it/alerts/feeds/12102160554260704729/16817007833175721987"
+ASSISTANT_ID = "asst_xxx"
+DALLE3_PROMPT_ASSISTANTID = "asst_xxx"
+xml_url = "https://www.google.it/alerts/feeds/xxx"
 content_url, article_number= save_url(xml_url)
 date_random = cal_time(article_number)
 print(article_number)
