@@ -389,8 +389,8 @@ def convert_json(openai_response_message, old_message):
 
 def push_post1(article, media_url, green_pass, date, nlp, author, category):
     url = 'https://www.your-project/wp-json/wp/v2/posts'
-    user = 'push_article'
-    password = 'UiQS UPuH jLYg qUl4 nc0e eFsJ'
+    user = ''
+    password = ''
 
     # Estrarre i singoli valori dall'oggetto
     titolo = article['title']
