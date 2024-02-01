@@ -388,7 +388,7 @@ def convert_json(openai_response_message, old_message):
 
 
 def push_post1(article, media_url, green_pass, date, nlp, author, category):
-    url = 'https://www.beyond-binary-bits.cloud/wp-json/wp/v2/posts'
+    url = 'https://www.your-project/wp-json/wp/v2/posts'
     user = 'push_article'
     password = 'UiQS UPuH jLYg qUl4 nc0e eFsJ'
 
@@ -499,7 +499,7 @@ def analyze_text_with_spacy(text, nlp):
     
 
 def set_featured_image(user, password, post_id, image_id):
-    url = f'https://www.beyond-binary-bits.cloud/wp-json/wp/v2/posts/{post_id}'
+    url = f'https://www.your-project/wp-json/wp/v2/posts/{post_id}'
     headers = {'Content-Type': 'application/json'}
 
     data = {
@@ -511,7 +511,7 @@ def set_featured_image(user, password, post_id, image_id):
 
 
 def wp_upload_image(user, password, img_path, keyphrase, onekwyword):
-    url = 'https://www.beyond-binary-bits.cloud/wp-json/wp/v2/media'
+    url = 'https://www.your-project/wp-json/wp/v2/media'
     headers = {'Content-Disposition': 'attachment; filename=%s' % "image.jpg"}
     time = (datetime.now()).strftime("%d-%m-%Y")
     onekwyword = onekwyword + "-"+time + ".jpeg"
@@ -531,7 +531,7 @@ def wp_upload_image(user, password, img_path, keyphrase, onekwyword):
         print(f"Couldn't open file ({e})")
 
 def set_meta(user, password, post_id, onekwyword, metadescription):
-    url = f'https://www.beyond-binary-bits.cloud/wp-json/rankmath/v1/updateMeta'
+    url = f'https://www.your-project/wp-json/rankmath/v1/updateMeta'
     object_type = 'post'  # Può variare a seconda dell'oggetto a cui vuoi aggiungere la metadescrizione
     meta = {'rank_math_description': metadescription, 'rank_math_focus_keyword': onekwyword}  # Sostituisci con la tua metadescrizione
 
@@ -672,13 +672,13 @@ def valutazione_keyword(spacy_keywords, trends_keywords, chatgpt_keywords):
 # URL del file XML
 #Carico modello per estrazione keyword dal testo
 nlp = spacy.load("it_core_news_lg")
-ASSISTANT_ID = "asst_9Ly6xop1vrdkUE5j7IcHjX7V"
-DALLE3_PROMPT_ASSISTANTID = "asst_arvOVGuEbljpoDtytdOxZwSz"
-ASSISTANT_ID_AUGMANTED = "asst_19Of0YKq434xuDxKJAgmv4mF"
+ASSISTANT_ID = "asst_xxx"
+DALLE3_PROMPT_ASSISTANTID = "asst_xxx"
+ASSISTANT_ID_AUGMANTED = "asst_xxx"
 #Sezione url. Commentare per cambiare tipo, possibile inserire sia url xml di google, sia url normali di articoli
-xml_url = "https://www.google.it/alerts/feeds/12102160554260704729/16817007833175721987"
-single_url = "https://techfromthenet.it/2024/01/18/limpegno-di-red-hat-per-la-societa-e-lai-alliance/"
-xml_url_smartphone= "https://www.google.com/alerts/feeds/12102160554260704729/7991058929342623573"
+xml_url = ""
+single_url = ""
+xml_url_smartphone= ""
 
 
 #Estrazione contenuti degli articoli
