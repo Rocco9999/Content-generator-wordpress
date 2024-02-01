@@ -3,6 +3,10 @@
 
 Questo repository contiene uno script Python denominato `content_generator_3.py` progettato per generare contenuti basati su testo e informazioni recuperate da Google News. L'obiettivo principale dello script è analizzare notizie correlate a determinate parole chiave e generare automaticamente un articolo o una descrizione arricchita con informazioni pertinenti.
 
+# Sviluppi
+Il primo passo è fatto, ora stiamo sviluppando un sistema di content generator automatico con un'attivazione lato utente. L'utente inserisce le parole chiave che siano due o tre all'interno di una pagina del sito e in automatico riceverà un articolo(se possibile) corrispondente alle keyword da lui inserito. Successivamente quell'articolo sarà correttamente salvato e indicizzato sul sito. MOTTO - Utente as josb scheduler 
+
+
 ## Utilizzo
 
 1. Installare le dipendenze del progetto:
@@ -18,7 +22,7 @@ requirements.txt: Elenco delle dipendenze del progetto.
 
 Siamo aperti ai contributi! Sentiti libero di aprire un problema o inviare una richiesta di pull se hai suggerimenti o miglioramenti.
 
-##Requirement
+## Requirement
 
 pip install tqdm
 pip install openai
@@ -31,7 +35,7 @@ pip install spacy
 pip install google
 python -m spacy download it_core_news_lg
 
-##Openai Requiremenet
+## Openai Requiremenet
 
 Creare 3 differenti assistantgpt.
 In ognuno di essi inserire le seguenti istruzioni
