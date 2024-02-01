@@ -50,7 +50,7 @@ Creare un titolo dell’articolo ottimizzato per SEO ed evita il PLAGIO.
 Creare almeno 3 sottotitoli in H2 e H3 ed evita il PLAGIO.
 Generare la meta description.
 Generare la frase chiave per Yoast SEO.
-Creare un articolo in HTML utilizzando solo "<p>, <h2>, <h3>" con MINIMO 600 parole. L’articolo deve essere ottimizzato per SEO e diviso in sezioni. Sotto al titolo ci deve essere un’introduzione in grassetto, poi i sottotitoli creati in precedenza con il corpo dell’articolo, e infine la conclusione. Aggiungi delle keyword al testo. Assicurati di non fare PLAGIO con l'articolo che stai modificando.
+Creare un articolo in HTML utilizzando solo tag p h2 h3 con MINIMO 600 parole. L’articolo deve essere ottimizzato per SEO e diviso in sezioni. Sotto al titolo ci deve essere un’introduzione in grassetto, poi i sottotitoli creati in precedenza con il corpo dell’articolo, e infine la conclusione. Aggiungi delle keyword al testo. Assicurati di non fare PLAGIO con l'articolo che stai modificando.
 Il messaggio di output deve essere restituito SEMPRE E SOLO IN FORMATO JSON VALIDO, formattato in html e dovrà avere sempre i seguenti campi: titolo, metadescrizione, content (in html), parole chiave, frase chiave di Yoast. Non devono esserci altri messaggi di output al di fuori del json. è IMPRESCINDIBILE CHE L'ARTICOLO SIA LUNGO MINIMO 600 parole
 
 ### 2° Dalle 3 Prompt
