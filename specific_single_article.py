@@ -124,7 +124,7 @@ def run_message(ASSISTANT_ID, message):
 
 def push_post(article):
     
-  url = 'https://www.beyond-binary-bits.cloud/wp-json/wp/v2/posts'
+  url = 'https://www.byour-project/wp-json/wp/v2/posts'
 
   user = 'push_article'
   password= 'UiQS UPuH jLYg qUl4 nc0e eFsJ'
