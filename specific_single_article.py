@@ -126,8 +126,8 @@ def push_post(article):
     
   url = 'https://www.byour-project/wp-json/wp/v2/posts'
 
-  user = 'push_article'
-  password= 'UiQS UPuH jLYg qUl4 nc0e eFsJ'
+  user = ''
+  password= ''
   # Estrarre i singoli valori dall'oggetto
   titolo = article['title']
   content = article['content']
