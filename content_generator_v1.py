@@ -207,7 +207,7 @@ for key, value in list(content_url.items())[OFFSET:]:
     #Per rispettare chatgpt
     #time.sleep(40)
     # Enter your Assistant ID here.
-    ASSISTANT_ID = "asst_9Ly6xop1vrdkUE5j7IcHjX7V"
+    ASSISTANT_ID = "asst_xxx"
     article = run_message(ASSISTANT_ID, value)
     labeld_article = restruct_object(article)
     push_post(labeld_article)
