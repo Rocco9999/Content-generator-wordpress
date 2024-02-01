@@ -11,29 +11,29 @@ Il primo passo è fatto, ora stiamo sviluppando un sistema di content generator 
 
 1. Installare le dipendenze del progetto:
 
-## File e Struttura del Codice
+# File e Struttura del Codice
 
 content_generator_3.py: Lo script principale che gestisce la generazione del contenuto.
 content_generator_2.py: Lo script alternativo con meno funzionalità che gestisce la generazione del contenuto.
 content_generator_1.py: Lo script iniziale che gestisce solo la generazione del contenuto.
 requirements.txt: Elenco delle dipendenze del progetto.
 
-## Contributi
+# Contributi
 
 Siamo aperti ai contributi! Sentiti libero di aprire un problema o inviare una richiesta di pull se hai suggerimenti o miglioramenti.
 
 ## Requirement
 
-pip install tqdm
-pip install openai
-pip install requests
-pip install bs4
-pip install pandas
-pip install pytrends
-pip install numpy
-pip install spacy
-pip install google
-python -m spacy download it_core_news_lg
+#pip install tqdm
+#pip install openai
+#pip install requests
+#pip install bs4
+#pip install pandas
+#pip install pytrends
+#pip install numpy
+#pip install spacy
+#pip install google
+#python -m spacy download it_core_news_lg
 
 ## Openai Requiremenet
 
