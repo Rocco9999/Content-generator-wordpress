@@ -72,7 +72,7 @@ def data_augmentation():
     # Calcola il conteggio totale delle parole
     total_word_count = sum(count_words(tag.get_text()) for tag in all_p_tags)
 
-    ASSISTANT_ID = "asst_19Of0YKq434xuDxKJAgmv4mF"
+    ASSISTANT_ID = "asst_xxx"
     # Se il conteggio è inferiore a 500, elabora i tag <p> con ChatGPT
     if total_word_count < 500:
         new_p_tags = []
